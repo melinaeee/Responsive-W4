@@ -1,3 +1,18 @@
+:root {
+    --branding-color: rgb(247, 247, 83);
+    --secondary-color: rgb(121, 220, 121);
+     
+}
+
 body {
-  background-color: aqua;
+  background-color: var(--branding-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 160px;
+}
+
+.hero h2 {
+    padding-bottom: 60px;
 }
