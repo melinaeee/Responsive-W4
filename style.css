@@ -1,7 +1,6 @@
 :root {
-    --branding-color: rgb(23, 23, 19);;
-    --secondary-color: rgb(249, 252, 60);
-     
+  --branding-color: rgb(23, 23, 19);
+  --secondary-color: rgb(249, 252, 60);
 }
 
 body {
@@ -10,17 +9,26 @@ body {
 }
 
 h1 {
-    font-size: 100px;
-    line-height: 1.5;
+  font-size: 100px;
+  font-weight: 100px;
+  line-height: 1.5;
+  font-family: "Luckiest guy";
 }
 
 h2 {
-    font-size: 40px;
+  
+  font-weight: 60px;
+  font-size: 40px;
+}
+
+h4 {
+    font-size: 22px;
 }
 
 p {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .hero {
@@ -28,52 +36,54 @@ p {
   padding: 160px;
 }
 
-
 .hero h2 {
-    font-size: 40px;
-    padding: 30px 60px;
+  font-size: 40px;
+  padding: 30px 60px;
 }
 
 .players {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .btn-branding-outline {
-    line-height: 27px;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 4px;
-    color: white;
-    background-color: green;
-    border: 1px solid;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  color: white;
+  background-color: green;
+  border: 1px solid;
 }
- 
+
 .project-description {
-    padding: 40px 30px;
+  padding: 40px 30px;
 }
 
 .container img {
-    width: auto;
-    height: auto;
-    padding: 40px 30px;
+  width: auto;
+  height: auto;
+  padding: 40px 30px;
+}
+
+.about-page {
+    padding: 80px 30px;
 }
 
 @media (max-width: 900px) {
-    h1 {
-        font-size: 50px;
-    }
+  h1 {
+    font-size: 50px;
+  }
 
-    h2 {
-        font-size: 40px;
-    }
+  h2 {
+    font-size: 40px;
+  }
 
-    .hero {
-        padding: 80px 20px;
-    }
+  .hero {
+    padding: 80px 20px;
+  }
 
-    .project-description {
+  .project-description {
     padding: 0;
     text-align: center;
-    }
-    
+  }
 }
