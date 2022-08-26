@@ -4,11 +4,12 @@
 }
 
 body {
-  background-color: var(--branding-color);
-  color: white;
+  background-color: whitesmoke;
+  
 }
 
 h1 {
+  color: black;  
   font-size: 100px;
   font-weight: 100px;
   line-height: 1.5;
@@ -16,9 +17,13 @@ h1 {
 }
 
 h2 {
-  
+  color: black;
   font-weight: 60px;
   font-size: 40px;
+}
+
+h3 {
+    color: rgb(51, 97, 231);
 }
 
 h4 {
@@ -29,6 +34,7 @@ p {
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
+  color: rgb(51, 97, 231);
 }
 
 .hero {
