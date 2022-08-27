@@ -20,6 +20,7 @@ h2 {
   color: black;
   font-weight: 60px;
   font-size: 40px;
+  font-family: "Luckiest guy";
 }
 
 h3 {
@@ -27,14 +28,16 @@ h3 {
 }
 
 h4 {
+    font-family: "Luckiest guy";
     font-size: 22px;
+    color: rgb(51, 97, 231);
 }
 
 p {
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
-  color: rgb(51, 97, 231);
+  color: black;
 }
 
 .hero {
@@ -65,14 +68,14 @@ p {
   padding: 40px 30px;
 }
 
+.content-container {
+    padding: 80px 30px;
+}
+
 .container img {
   width: auto;
   height: auto;
   padding: 40px 30px;
-}
-
-.about-page {
-    padding: 80px 30px;
 }
 
 @media (max-width: 900px) {
