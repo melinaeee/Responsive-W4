@@ -1,5 +1,5 @@
 :root {
-  --branding-color: rgb(23, 23, 19);
+  --branding-color: rgb(51, 97, 231);
   --secondary-color: rgb(249, 252, 60);
 }
 
@@ -40,13 +40,48 @@ p {
   color: black;
 }
 
+nav {
+    padding: 40px 50px;
+
+}
+
+nav a:hover
+nav li.active a {
+    color: var(--branding-color);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    
+    color: black;
+}
+
+.icon {
+    max-width: 90px;
+}
+
 .contact {
     color: black;
 }
 
 .hero {
   text-align: center;
-  padding: 160px;
+  padding: 120px;
 }
 
 .hero h2 {
