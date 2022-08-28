@@ -5,11 +5,10 @@
 
 body {
   background-color: whitesmoke;
-  
 }
 
 h1 {
-  color: black;  
+  color: whitesmoke;
   font-size: 100px;
   font-weight: 100px;
   line-height: 1.5;
@@ -17,20 +16,20 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: whitesmoke;
   font-weight: 60px;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Luckiest guy";
 }
 
 h3 {
-    color: rgb(51, 97, 231);
+  color: rgb(51, 97, 231);
 }
 
 h4 {
-    font-family: "Luckiest guy";
-    font-size: 22px;
-    color: rgb(51, 97, 231);
+  font-family: "Luckiest guy";
+  font-size: 22px;
+  color: rgb(51, 97, 231);
 }
 
 p {
@@ -41,52 +40,50 @@ p {
 }
 
 nav {
-    padding: 40px 50px;
-
+  padding: 40px 50px;
 }
 
-nav a:hover
-nav li.active a {
-    color: var(--branding-color);
+nav a:hover nav li.active a {
+  color: var(--branding-color);
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-    display: inline;
-    list-style: none;
-    line-height: 40px;
-    margin-left: 10px;
-    text-align: center;
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 nav a {
-    font-size: 14px;
-    text-decoration: none;
-    
-    color: black;
+  font-size: 18px;
+  text-decoration: none;
+
+  color: black;
 }
 
 .icon {
-    max-width: 130px;
+  max-width: 130px;
 }
 
 .contact {
-    color: black;
+  color: black;
 }
 
 .hero {
   text-align: center;
   padding: 120px;
+  background: var(--branding-color);
 }
 
 .hero h2 {
   font-size: 40px;
-  padding: 30px 60px;
+  padding: 80px 20px;
 }
 
 .players {
@@ -108,7 +105,7 @@ nav a {
 }
 
 .content-container {
-    padding: 80px 30px;
+  padding: 50px 10px;
 }
 
 .container img {
